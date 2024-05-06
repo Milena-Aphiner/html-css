@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'iDroid';
+    src: url('IDroid.otf');
+}
+
+body {
+    background-color: rgb(203, 238, 168);
+}
+
+h1 {
+    color: rgb(86, 168, 3) ;
+    font-family: 'iDroid';
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(83, 124, 43) ;
+}
+
+.básico {
+    color: rgb(51, 248, 51);
+}
+
+.intermediário {
+    color: rgb(218, 218, 59);
+}
+
+.avançado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(127, 255, 212, 0.671);
+}
